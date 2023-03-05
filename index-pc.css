@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+@media  only screen and (min-width:901px){
+    body{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .tag{
+        display: flex;
+        
+       
+        background-color: rgb(32, 59, 111);
+        padding: 0.3em;
+        justify-content: space-between;
+       
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+       
+        
+       
+        background-color: rgb(32, 59, 111);
+        padding: 0.3em;
+        justify-content: space-between;
+       
+    }
+
+
+
+
+    .image{
+       border-radius: 50%;
+      
+      
+    }
+
+    .text{
+        font-size: 0.8rem;
+        
+       
+
+        color: white;
+        border: 2px gold solid;
+        border-radius: 20px;
+        padding: 0.2em;
+    }
+
+    .head{
+        color: rgb(255, 208, 0);
+        font-weight: bold;
+        margin-left: 0.2em;
+    }
+    .sub{
+        font-size: 0.7em;
+        margin-right: 0.2em;
+       
+    }
+
+    .rule{
+        background-color: green;
+    }
+    
+
+    .boddy{
+        display: flex;
+        justify-content: center;
+    }
+
+    .content{
+        background-color: white;
+        min-width: 90vw;
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #slides{
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .ques{
+        /* color:rgb(11, 33, 75) ; */
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+       color: gold;
+    }
+
+    .p1{
+        display: flex;  
+        flex-direction: column;
+        /* background-color: rgba(255, 217, 0, 0.555); */
+       background-color:rgb(11, 33, 75) ;
+      
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 0.5em;
+        color: white;
+        font-size: 1.3rem;
+        padding: 1.5em;
+    }
+
+    #myPieChart{
+        background-color:rgb(11, 33, 75);
+       
+        border-radius: 20px;
+        padding: 1em;
+        margin-top: 1em;
+       
+       }
+
+    .pieholder,.svgholder{
+        display: flex;
+        /* background-color: green; */
+        justify-content: center
+    }
+    #t3{
+        flex-direction: row;
+       
+    }
+
+
+
+    .pie{
+        
+      
+        width: 40%;
+    }
+
+    .cat{
+        background-color: rgb(46, 52, 68);
+        border-radius: 30px;
+        padding: 1em;
+    }
+
+
+    .t4head{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .join{
+        width: 90%;
+        background-color: rgba(27, 207, 27, 0.863);
+        border: 0;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        padding: 1em;
+       }
+
+
+    .ro{
+        display: flex;
+    }
+
+    #M{
+        width: 50%;
+        border:gold 3px solid;
+        border-radius: 50%;
+       }
+    
+       .name{
+        color: cyan;
+        font-size: 1rem;
+       }
+    
+       .qt{
+        color: grey;
+       }
+
+
+       .contactus{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(11, 33, 75);
+        color: white;
+        font-size: 1rem;
+        margin-top: 2em;
+       }
+    
+       .dets{
+        display: flex;
+        width: 100%;
+        list-style: none;
+        font-size: 0.9em;
+        justify-content: space-evenly;
+       
+        
+       }
+       
+       
+       .r1 ul ,.r2 ul{
+        list-style: none;
+       }
+    
+       .tw:hover {
+        background-color: #1da1f2;
+      }
+    
+      .item {
+       
+        list-style: none;
+        transition: transform 0.6s;
+        color: black;
+        margin: 1em;
+        margin-top: 2em;
+       
+       
+      }
+    
+      .item a{
+        text-decoration: none;
+      }
+    
+      .handles{
+        display: flex;
+        gap: 1em;   
+    
+      }
+    
+      .tw{
+        background-color: rgb(7, 136, 187);
+        color: white;
+        border-radius: 50%;
+        padding: 1em;
+        padding-bottom: 0.7em;
+      }
+    
+      .fb{
+        background-color: rgb(3, 75, 182);
+        color: white;
+        border-radius: 50%;
+        padding: 1em;
+        padding-bottom: 0.7em;
+      }
+    
+      .in{
+        /* background-color: green; */
+        color: white;
+        border-radius: 50%;
+        padding: 1em;
+        padding-bottom: 0.7em;
+        background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    
+      }
+    
+      .yt{
+        background-color: rgb(206, 29, 29);
+        color: white;
+        border-radius: 50%;
+        padding: 1em;
+        padding-bottom: 0.8em;
+        padding-right: 1.1em;
+        /* background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); */
+    
+      }
+    
+
+
+    
+    
+
+
+    
+    
+
+
+
+  
+
+
+
+    
+
+}

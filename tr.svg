@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="232.935" y1="2.56" x2="232.935" y2="108.364" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(168, 164, 216, 1)"/>
+      <stop offset="1" style="stop-color: rgba(100, 93, 185, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="232.935" y1="2.56" x2="232.935" y2="108.364" id="gradient-1" gradientTransform="matrix(1, 0, 0, 1, 7.679329, 109.213758)">
+      <stop offset="0" style="stop-color: rgba(168, 164, 216, 1)"/>
+      <stop offset="1" style="stop-color: rgba(100, 93, 185, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="232.935" y1="2.56" x2="232.935" y2="108.364" id="gradient-2" gradientTransform="matrix(1, 0, 0, 1, 11.092291, 219.282012)">
+      <stop offset="0" style="stop-color: rgba(168, 164, 216, 1)"/>
+      <stop offset="1" style="stop-color: rgba(100, 93, 185, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="232.935" y1="2.56" x2="232.935" y2="108.364" id="gradient-3" gradientTransform="matrix(1, 0, 0, 1, 11.945541, 330.203518)">
+      <stop offset="0" style="stop-color: rgba(168, 164, 216, 1)"/>
+      <stop offset="1" style="stop-color: rgba(100, 93, 185, 1)"/>
+    </linearGradient>
+    <style bx:fonts="Anek Gujarati">@import url(https://fonts.googleapis.com/css2?family=Anek+Gujarati%3Aital%2Cwght%400%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800&amp;display=swap);</style>
+  </defs>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-0);" cx="232.935" cy="55.462" rx="113.481" ry="52.902"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Anek Gujarati&quot;; font-size: 23.9px; white-space: pre;" transform="matrix(2.075102, 0, 0, 1.61039, -240.661545, -170.903381)" x="187.713" y="145.051">Benifits</text>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-1);" cx="240.614" cy="164.676" rx="113.481" ry="52.902"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-2);" cx="244.027" cy="274.744" rx="113.481" ry="52.902"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: url(#gradient-3);" cx="244.881" cy="385.665" rx="113.481" ry="52.902"/>
+</svg>

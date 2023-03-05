@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media  only screen and (min-width:320px) and (max-width:900px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins';
+    }
+
+    html{
+      overflow-x: hidden;
+    }
+
+    
+    .tag{
+        display: flex;
+        
+       
+        background-color: rgb(32, 59, 111);
+        padding: 0.3em;
+        justify-content: space-between;
+       
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+       
+        
+       
+        background-color: rgb(32, 59, 111);
+        padding: 0.3em;
+        justify-content: space-between;
+       
+    }
+
+
+
+
+    .image{
+       border-radius: 50%;
+      
+      
+    }
+
+    .text{
+        font-size: 0.8rem;
+        
+       
+
+        color: white;
+        border: 2px gold solid;
+        border-radius: 20px;
+        padding: 0.2em;
+    }
+
+    .head{
+        color: rgb(255, 208, 0);
+        font-weight: bold;
+        margin-left: 0.2em;
+    }
+    .sub{
+        font-size: 0.7em;
+        margin-right: 0.2em;
+       
+    }
+
+    .rule{
+        background-color: green;
+    }
+
+
+
+    .opsholder{
+        background-color: rgb(32, 59, 111);
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.3em;
+        display: none;
+
+    }
+
+    .opsholder ul{
+        display: flex;
+        justify-content: left;
+        list-style: none;
+       
+    }
+
+    .opsholder ul li{
+        margin-right:1.8em;
+        font-family: "poppins";
+    }
+    
+    .opsholder ul li i{
+        margin-right: 1m;
+    }
+    .body{
+        padding: 0.3em;
+    }
+
+
+
+    .slides{
+        overflow-x: hidden;
+       
+
+    }
+
+    .slideholder{
+      display: flex;
+        width: 500%;
+        
+    }
+    .one{
+        width: 300%;
+    }
+
+    .ques{
+        /* color:rgb(11, 33, 75) ; */
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+       color: gold;
+    }
+    .p1{
+        display: flex;  
+        flex-direction: column;
+        /* background-color: rgba(255, 217, 0, 0.555); */
+       background-color:rgb(11, 33, 75) ;
+      
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 0.5em;
+        color: white;
+        font-size: 0.8rem;
+        padding: 1em;
+    }
+
+   #myPieChart{
+    background-color:rgb(11, 33, 75);
+   
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 1em;
+   }
+
+   .fa-circle{
+    font-size: 0.45rem;
+   }
+
+   .t3{
+    color: gold;
+    font-weight: bold;
+
+   }
+
+   .ques1{
+    color: white;
+    font-size: 1.2rem;
+
+    font-weight: bold;
+   }
+
+   .inf1{
+    margin-top:  1em;
+   }
+
+   .cat{
+    background-color: rgb(6, 64, 117);
+    padding: 1em;
+    border-radius: 50px;
+    margin-top: 1em;
+   }
+
+   .inf2{
+    margin: 0;
+    /* margin-bottom: 2em;
+    margin-right: 1em; */
+    width: 110%;
+    /* transform: translateX(-50px);
+    transform: translateY(-10px); */
+
+   }
+
+   .smile{
+    display: flex;
+    justify-content: left;  
+    flex-direction: column;
+    font-family: 'poppins';
+    font-size: 1rem;
+
+    
+   }
+   .inf3{
+    transform: translateX(-60px);
+   }
+
+   .sv1{
+    width: 150%;
+   }    
+
+   .join{
+    width: 90%;
+    background-color: rgba(27, 207, 27, 0.863);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+   }
+
+   .t4head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .btnhold{
+    display: flex;
+    justify-content: center;
+   
+   }
+
+   #au{
+    font-size: 1.5em;
+   }
+
+   .f1{
+    margin-top: 1em;
+   }
+
+   #M{
+    width: 50%;
+    border:gold 3px solid;
+    border-radius: 50%;
+   }
+
+   .name{
+    color: cyan;
+    font-size: 1rem;
+   }
+
+   .qt{
+    color: grey;
+   }
+   .contactus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(11, 33, 75);
+    color: white;
+    font-size: 0.8rem;
+   }
+
+   .dets{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    font-size: 0.9em;
+    justify-content: space-evenly;
+   
+    
+   }
+   
+   
+   .r1 ul ,.r2 ul{
+    list-style: none;
+   }
+
+   .tw:hover {
+    background-color: #1da1f2;
+  }
+
+  .item {
+   
+    list-style: none;
+    transition: transform 0.6s;
+    color: black;
+    margin: 1em;
+    margin-top: 2em;
+   
+   
+  }
+
+  .item a{
+    text-decoration: none;
+  }
+
+  .handles{
+    display: flex;
+    gap: 1em;   
+
+  }
+
+  .tw{
+    background-color: rgb(7, 136, 187);
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    padding-bottom: 0.7em;
+  }
+
+  .fb{
+    background-color: rgb(3, 75, 182);
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    padding-bottom: 0.7em;
+  }
+
+  .in{
+    /* background-color: green; */
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    padding-bottom: 0.7em;
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+
+  }
+
+  .yt{
+    background-color: rgb(206, 29, 29);
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    padding-bottom: 0.8em;
+    padding-right: 1.1em;
+    /* background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); */
+
+  }
+
+
+
+  
+
+  
+
+   
+
+   
+
+  
+   
+   
+
+  
+
+
+
+
+
+    
+    
+    
+}

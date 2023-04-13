@@ -1,0 +1,133 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: #1E1E1E;
+     /* overflow-x: hidden; */
+ }
+
+nav{
+    background-color: #3cb2cd3d;
+    height: 10vh;
+   min-height: 7vh; 
+   max-height: 10vh;
+    width: 98%;
+    margin-top: 0.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+   display: flex;
+   align-items: center;
+   padding-left: 0.5em;
+}
+.bar{
+    height: 10vh;
+    background-color: #0D788F;
+    width: 1.5%;
+    height: 13vh;   
+    min-height: 7vh; 
+    box-shadow: 0px 4px 4px rgba(13, 120, 143, 0.39);
+  
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    color: white;
+    font-family: 'poppins';
+    font-weight: 300;
+    padding-left: 0.5em;
+}
+.gap{
+    width: calc(100% - 680px);
+    height: 10vh;
+    /* background-color: green; */
+}
+nav ul{
+    display: flex;
+   
+    color: white;
+    list-style: none;
+    font-family: 'inter';
+    gap: 25px;
+
+}
+nav ul li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+.reg{
+    background-color: #0D788F;
+    border-radius: 5px;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.maincontent{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.poster{
+    width: 700px;
+    border-radius: 25px;
+    background-color: rgba(43, 43, 43, 0.755);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+}   
+
+
+.about{
+    padding-top: 2em;
+    background-image: url(aibg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cnt{
+    margin: 2em;
+    margin-bottom: 0;
+    padding: 1em;
+    
+font-family: 'Mate SC';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+background: rgba(13, 120, 143, 0.5);
+
+color: #FFFFFF;
+}
+
+.btnhold{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.btnhold button{
+    padding: 0.5em;
+    font-family: 'Inter';
+font-style: normal;
+font-size: 17px;
+line-height: 17px;
+    text-align: center;
+
+color: #FFFFFF;
+    border: 0;
+    
+background: linear-gradient(180deg, #19C3DA 0%, rgba(2, 17, 37, 0.46) 100%);
+border-radius: 8px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@900&family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Playfair+Display&family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Playfair+Display&display=swap" rel="stylesheet">
+
+ 
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="events-pcs.css">
+
+
+
+
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="bar"></div>
+       <nav>
+    
+        <img src="icon.svg" alt="" width="60px">
+        <div class="text"><p>neighshop</p>
+           <p> आपकी बगल की दुकान</p>
+            </div>
+    
+            <div class="gap"></div>
+            <ul>
+            
+                <a href="/index-pc.html#headhold" onclick="scrollToDiv"> <li>Home</li></as> 
+                    <a href="/events-pc.html"><li class="event">Events <span class="notif">  </span> </li></a>
+                 <a href="/index-pc.html#team"><li>About us</li></a>
+                 <a href="/index-pc.html#contact"><li>Contact</li></a>
+                <a href="https://surveyheart.com/form/63fa28f6d82210073f74c193"> <li class="reg">Register</li></a>
+                 
+              
+            </ul>
+    
+       
+        
+    
+       </nav>
+    </div>
+
+
+ <div class="maincontent">
+ <div class="events">
+    <span class="head">upcoming events</span>
+     <ul>
+        <li class="anim"><button onclick="location.href='/events/abhikalp-pc.html'">
+            <img src="abhikalp.svg" alt="abhikalp" >
+
+         
+
+        </button></li>
+     </ul>
+
+
+    </div>
+</div>   
+
+
+ 
+
+  
+    
+
+
+
+    
+</body>
+
+<script>
+    function animateOnScroll() {
+  const divs = document.querySelectorAll('.anim');
+
+  divs.forEach((div) => {
+    const divPosition = div.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight;
+
+    if (divPosition < screenPosition) {
+      div.classList.add('animate');
+    }
+  });
+}
+
+animateOnScroll()
+</script>
+
+<script>
+    window.onload = function() {
+      var limit = 450; // Set the screen size limit here
+      var screenWidth = window.innerWidth; // Get the screen width
+      if (screenWidth < limit) {
+        location.href = "/events.html"; // Redirect to the new page
+      }
+    };
+  </script>
+
+</html>

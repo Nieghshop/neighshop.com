@@ -1,0 +1,143 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: #1E1E1E;
+     /* overflow-x: hidden; */
+ }
+
+nav{
+    background-color: #3cb2cd3d;
+    height: 10vh;
+   min-height: 7vh; 
+   max-height: 10vh;
+    width: 98%;
+    margin-top: 0.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+   display: flex;
+   align-items: center;
+   padding-left: 0.5em;
+}
+.bar{
+    height: 10vh;
+    background-color: #0D788F;
+    width: 1.5%;
+    height: 13vh;   
+    min-height: 7vh; 
+    box-shadow: 0px 4px 4px rgba(13, 120, 143, 0.39);
+  
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    color: white;
+    font-family: 'poppins';
+    font-weight: 300;
+    padding-left: 0.5em;
+}
+.gap{
+    width: calc(100% - 680px);
+    height: 10vh;
+    /* background-color: green; */
+}
+nav ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    font-family: 'inter';
+    gap: 25px;
+
+}
+nav ul li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+.reg{
+    background-color: #0D788F;
+    border-radius: 5px;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.svgholder{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.events{
+    transform: translateY(70px);
+
+}
+.events ul li button{
+    margin-top: 1em;
+    background: rgba(13, 119, 143, 0.163);
+border: 1px solid #0D788F;
+border-radius: 17px;
+box-shadow: inset -5px 5px 5px 3px rgba(23, 169, 201, 0.34);
+}
+
+.events ul li{
+    display: flex;
+    justify-content: center;
+        background-color: rgb(58, 58, 58);
+        border-radius: 20px;
+
+    padding: 1em;
+    /* width: 130%; */
+    /* background-color: green; */
+    margin-top: 1em;
+}
+
+.events button{
+    background-color: transparent;
+    border: 0;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.events button img{
+    width: 100%;
+}
+.head{
+    background-color: #0D788F;
+    color: white;
+    font-family: "inter";
+    font-weight: 500;
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-left: 0.3em;
+    border-radius: 20px;
+    font-size: 0.8em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-bottom: 0.7em;
+
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.events{
+    /* background-color: rgb(58, 58, 58); */
+    padding: 1em;
+    width: 800px;
+}
+.events ul{
+    list-style: none;
+}

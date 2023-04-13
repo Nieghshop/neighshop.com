@@ -1,14 +1,8 @@
 
 
 
-.anim {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-  }
   
-  .anim.animate {
-    opacity: 1;
-  }
+
 *{
     margin: 0;
     padding: 0;
